@@ -1,5 +1,5 @@
 from socket import *
-import sys  # Necessário para encerrar o programa
+import sys
 
 # Cria o socket TCP (orientado à conexão)
 serverSocket = socket(AF_INET, SOCK_STREAM)
